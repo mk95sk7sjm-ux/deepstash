@@ -1,0 +1,13 @@
+:root{--bg:#f1eef7;--head:#e5e0ee;--accent:#65527d;}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#292929;font:16px -apple-system,BlinkMacSystemFont,sans-serif}
+header{padding:26px 20px 14px;background:var(--head)}h1{font-size:32px;margin:6px 0}header p,.muted{color:#737373}
+nav{display:flex;overflow:auto;gap:5px;padding:9px;background:var(--head);position:sticky;top:0}
+button{border:0;border-radius:11px;padding:11px 14px;font:inherit;background:#e7e7e7}nav button.active{background:white;font-weight:bold}
+main{padding:17px;max-width:720px;margin:auto}.tab{display:none}.tab.active{display:block}
+.card,.item,.stat{background:white;border-radius:14px;padding:14px;margin:10px 0}
+input,textarea,select{width:100%;padding:12px;border:1px solid #ddd;border-radius:10px;margin:7px 0;font:inherit}
+.primary{background:var(--accent);color:white}.danger{background:#f4dddd;color:#822}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat strong{display:block;font-size:24px}.note{font-size:13px;color:#777;line-height:1.5}
+dialog{border:0;border-radius:18px;width:90%;max-width:430px;padding:20px}dialog::backdrop{background:#0006}
+footer{text-align:center;padding:25px;color:#888;font-size:12px}

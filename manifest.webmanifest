@@ -1,0 +1,8 @@
+{
+  "name": "Stashmind",
+  "short_name": "Stashmind",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f1eef7",
+  "theme_color": "#e5e0ee"
+}
